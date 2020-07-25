@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+
+nav{
+    // padding: 30px 100px;
+    // position: fixed;
+    width:100%;
+    background: #3C98CC;
+    height: 180px;
+    // top: 30;
+
+    alt{
+        margin: 0, auto;
+    }
+
+
+    #box{
+        margin: 0px auto 0;
+        padding: 20px;
+        width:1200px;
+        display:grid;
+        grid-template-columns: 120px 280px 340px 280px;
+    }
+
+    #logo{
+        margin: 0 auto;
+    }
+
+    #link{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: flex-end;
+        
+
+        a{
+            font-size: 20px;
+            font-weight: 100;
+            color: #8ABFDF;
+
+            &:nth-child(2){
+                text-align: right;
+            }
+            
+        }
+    }
+    #link2{
+        display:grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: flex-end;
+        
+
+        a{
+            font-size: 20px;
+            font-weight: 100;
+            color: #8ABFDF;
+
+            &:nth-child(2){
+                text-align: right;
+            }
+            
+        }
+    }
+}
+
+#banner {
+    background-image: url(./bruno-cervera-YH7mGnigHRs-unsplash.jpg);
+    // width: 1920px;
+    // height: 1280px;
+    background-size: cover;
+    height:100vh;
+    background-position: center;
+}
+
+#contant{
+    // width: 1200px;
+    background-image: url(./WM_IndoorWood-44_1024.png);
+    border: 0.1px solid rgba(0,0,0,0,);
+
+    h1{
+        text-align: center;
+        margin-top: 50px;
+        font-weight: 340;
+        letter-spacing: 8px;
+        margin-bottom: 10px;
+    }
+
+     hr{
+         margin: auto;
+         margin-bottom: 180px;
+     }
+
+    h2{
+        text-align: left;
+        margin-top: 50px;
+        font-weight: 300;
+        letter-spacing: 8px;
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    // img{
+        // margin-top: 100px;
+    // }
+
+        p{
+            margin-bottom: 80px;
+        }
+
+    #news{
+        width: 1200px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 2fr);
+        grid-gap: 20px;
+        margin-bottom: 250px;
+    }
+}
+
+footer{
+    padding: 25px;
+    text-align: center;
+    background: #3C98CC;
+    color: white;
+    display:grid;
+    grid-template-columns: 90px 180px 580px 400px;
+
+
+    h1{
+        font-size: 15px;
+        text-align: left;
+        letter-spacing: 3px;
+        margin-top: 50px;
+        line-height:30px;
+        font-weight: 450;
+        color:#8ABFDF
+    }
+}
