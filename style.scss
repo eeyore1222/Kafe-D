@@ -6,18 +6,10 @@
 }
 
 nav{
-    // padding: 30px 100px;
-    // position: fixed;
     width:100%;
     background: #3C98CC;
     height: 180px;
-    // top: 30;
-
-    alt{
-        margin: 0, auto;
-    }
-
-
+    
     #box{
         margin: 0px auto 0;
         padding: 20px;
@@ -35,11 +27,10 @@ nav{
         grid-template-columns: repeat(2,1fr);
         align-items: flex-end;
         
-
         a{
             font-size: 20px;
             font-weight: 100;
-            color: #8ABFDF;
+            color: #ffffff;
 
             &:nth-child(2){
                 text-align: right;
@@ -51,12 +42,11 @@ nav{
         display:grid;
         grid-template-columns: repeat(2,1fr);
         align-items: flex-end;
-        
 
         a{
             font-size: 20px;
             font-weight: 100;
-            color: #8ABFDF;
+            color: #ffffff;
 
             &:nth-child(2){
                 text-align: right;
@@ -68,8 +58,6 @@ nav{
 
 #banner {
     background-image: url(./bruno-cervera-YH7mGnigHRs-unsplash.jpg);
-    // width: 1920px;
-    // height: 1280px;
     background-size: cover;
     height:100vh;
     background-position: center;
@@ -124,10 +112,14 @@ footer{
     padding: 25px;
     text-align: center;
     background: #3C98CC;
-    color: white;
-    display:grid;
-    grid-template-columns: 90px 180px 580px 400px;
+    
 
+#footer{
+    margin: 0 auto;
+    width: 1200px;
+    display:grid;
+    grid-template-columns: 180px 580px 440px;
+}
 
     h1{
         font-size: 15px;
@@ -136,6 +128,23 @@ footer{
         margin-top: 50px;
         line-height:30px;
         font-weight: 450;
-        color:#8ABFDF
+        color:#ffffff
+    }
+
+    #right{
+        margin-top: 55px;
+    }
+
+    #icon{
+        display:grid;
+        grid-template-columns: 90px 100px 100px 100px;
+    }
+
+    #copy{
+        margin-top: 15px;
+        text-align: center;
+        font-size: 8px;
+        font-weight: 450;
+        color:#ffffff
     }
 }
