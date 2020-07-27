@@ -95,7 +95,7 @@ nav #link2 a:nth-child(2) {
 #contant h2 {
   text-align: left;
   margin-top: 50px;
-  font-weight: 300;
+  font-weight: 400;
   letter-spacing: 8px;
   font-size: 15px;
   margin-bottom: 30px;
@@ -103,6 +103,7 @@ nav #link2 a:nth-child(2) {
 
 #contant p {
   margin-bottom: 80px;
+  font-weight: 300;
 }
 
 #contant #news {
